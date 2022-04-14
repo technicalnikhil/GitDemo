@@ -57,6 +57,7 @@ ExtentTest test= extent.createTest("Initial Demo");
 WebDriverManager.chromedriver().setup();
 
 WebDriver driver =new ChromeDriver();
+System.out.println("This is new Changes I have done");
 
 driver.get("https://rahulshettyacademy.com");
 
